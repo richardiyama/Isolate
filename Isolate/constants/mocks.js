@@ -45,18 +45,44 @@ const categories = [
 ];
 const explore = [
 //images
+require('../assets/images/explore_1.png'),
+require('../assets/images/explore_2.png'),
+require('../assets/images/explore_3.png'),
+require('../assets/images/explore_4.png'),
+require('../assets/images/explore_5.png'),
 ];
 const product = [
-
+{
+    id: 1,
+    name:'',
+    tags:['interiors','27m','Ideas'],
+    gallery:[
+        require('../assets/images/clothes_1.png'),
+        require('../assets/images/clothes_2.png'),
+        require('../assets/images/clothes_3.png'),
+        require('../assets/images/clothes_4.png'),
+        require('../assets/images/clothes_5.png'),
+        require('../assets/images/clothes_6.png'),
+    ]
+}
 ];
 
 const profile = {
+    username:'richardiyama',
+    location:'Nigeria',
+    email:'richardiyama@yahoo.com',
+    avater: require('../assets/images/avatar.png'),
+    budget:1000,
+    monthly_cap: 5000,
+    notifications:true,
+    newsletter:false,
 
 };
 
 
 export{
     categories,
+    explore,
     product,
     profile,
 }

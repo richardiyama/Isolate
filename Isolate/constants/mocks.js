@@ -12,7 +12,7 @@ const categories = [
     name:'Apps',
     tags:['products','inspirations'],
     count:16,
-    image: require('../assets/images/apps.png')
+    image: require('../assets/images/appss.png')
 },
 {
     id: 'electronics' ,

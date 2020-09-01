@@ -4,15 +4,15 @@ import { StyleSheet, Text, View } from 'react-native';
 import {Block} from './components';
 import {AppLoading, Asset} from 'expo';
 import Navigation from './navigation';
-//import * as constants from './constants';
+//import * as constants from './constants'
 
 const images = [
-  require('../assets/icons/clothes.png'),
-  require('../assets/icons/apps.png'),
-  require('../assets/icons/electronics.png'),
-  require('../assets/icons/furnitures.png'),
-  require('../assets/icons/plastics.png'),
-  require('../assets/icons/automobile.png'),
+  require('./assets/icons/clothes.png'),
+  require('./assets/icons/appss.png'),
+  require('./assets/icons/electronics.png'),
+  require('./assets/icons/furnitures.png'),
+  require('./assets/icons/plastics.png'),
+  require('./assets/icons/automobile.png'),
   require('./assets/images/clothes_1.png'),
   require('./assets/images/clothes_2.png'),
   require('./assets/images/clothes_3.png'),
@@ -51,19 +51,14 @@ export default class App extends Component{
     }
   
   return (
-    <View style={styles.container}>
+    <Block white>
      <Navigation/>
-    </View>
+    </Block>
   );
   }
 }
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+  
 });
 
 
